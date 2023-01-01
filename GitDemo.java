@@ -12,9 +12,13 @@ public class GitDemo {
 
         int b=50;
 
+        int c=5;
+
+        int d=19;
+
         int result=0;
 
-        result = a*b+(a+b);
+        result = (a+b+c+d)+(b/c)+(a*d);
 
         System.out.println("\n\n Result "+result);
     }
